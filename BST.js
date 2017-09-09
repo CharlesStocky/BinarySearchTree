@@ -40,8 +40,6 @@ BinarySearchTree.prototype.insertNode = function (val) {
 };
 
 BinarySearchTree.prototype.preOrderTraversal = function (root) {
-  var i = ['har1', 'bleh2', 'byah1', 'BYAHBYAH', 'fiz', 'buzz', 'fizzbuzz', 'freakin']
-  while(i)
   console.log(root.key, root.value)
   if (root.left) {
     this.preOrderTraversal(root.left);
